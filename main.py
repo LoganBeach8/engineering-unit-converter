@@ -409,7 +409,7 @@ set_site_information(
     description="A website that converts engineering measurements, including length, temperature, electrical measurements, and power.",
     sources="Created using CISC106 course materials, Python, Bakery Tutor LLM, and the Drafter documentation.",
     planning=["CS1 Final Project 1: Design.pdf", "CS1 Final Project 0: Pick a Problem"]
-    links=[""https://github.com/LoganBeach8/engineering-unit-converter"]
+    links=["https://github.com/LoganBeach8/engineering-unit-converter"]
 )
 
 hide_debug_information()
