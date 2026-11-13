@@ -408,7 +408,7 @@ set_site_information(
     author="Logan Beachell",
     description="A website that converts engineering measurements, including length, temperature, electrical measurements, and power.",
     sources="Created using CISC106 course materials, Python, Bakery Tutor LLM, and the Drafter documentation.",
-    planning=["CS1 Final Project 1: Design.pdf", "CS1 Final Project 0: Pick a Problem"],
+    planning=["CS1 Final Project 1: Design.pdf", "LLM Conversation.pdf", "CS1 Final Project 0: Pick a Problem.pdf"],
     links=["https://github.com/LoganBeach8/engineering-unit-converter"]
 )
 
