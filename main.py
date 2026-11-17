@@ -401,7 +401,7 @@ def help(state: State) -> Page:
 
 
 # START THE WEBSITE
-
+set_website_style("terminal")
 set_website_title("Engineering Unit Converter")
 
 set_site_information(
