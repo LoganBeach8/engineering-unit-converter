@@ -1,5 +1,18 @@
 from dataclasses import dataclass, field
 from drafter import *
+set_website_style("terminal")
+set_website_title("Engineering Unit Converter")
+
+set_site_information(
+    author="Logan Beachell",
+    description="A website that converts engineering measurements, including length, temperature, electrical measurements, and power.",
+    sources="Created using CISC106 course materials, Python, Bakery Tutor LLM, and the Drafter documentation.",
+    planning=["CS1 Final Project 1: Design.pdf", "LLM Conversation.pdf", "CS1 Final Project 0: Pick a Problem.pdf"],
+    links=["https://github.com/LoganBeach8/engineering-unit-converter"]
+)
+
+hide_debug_information()
+set_website_framed(False)
 @dataclass
 class ConversionRecord:
     value: float
@@ -401,18 +414,6 @@ def help(state: State) -> Page:
 
 
 # START THE WEBSITE
-set_website_style("terminal")
-set_website_title("Engineering Unit Converter")
 
-set_site_information(
-    author="Logan Beachell",
-    description="A website that converts engineering measurements, including length, temperature, electrical measurements, and power.",
-    sources="Created using CISC106 course materials, Python, Bakery Tutor LLM, and the Drafter documentation.",
-    planning=["CS1 Final Project 1: Design.pdf", "LLM Conversation.pdf", "CS1 Final Project 0: Pick a Problem.pdf"],
-    links=["https://github.com/LoganBeach8/engineering-unit-converter"]
-)
-
-hide_debug_information()
-set_website_framed(False)
 
 start_server(State())
